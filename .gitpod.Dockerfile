@@ -1,6 +1,4 @@
-FROM ubuntu:14.04
-
-MAINTAINER Carlos Moro <cmoro@deusto.es>
+FROM gitpod/workspace-full
 
 # Set locales
 RUN locale-gen en_GB.UTF-8
